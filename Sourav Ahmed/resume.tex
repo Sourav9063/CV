@@ -1,0 +1,390 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+% 
+% Further modified by:
+% Rohan Bavishi <rohan.bavishi95@gmail.com> 9/20/2016
+%
+% Important note:
+% This template requires the simple_style.cls file to be in the same directory 
+% as the .tex file. The res.cls file provides the resume style used for 
+% structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[mm]{simple_style}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+\usepackage{hyperref}
+\let\oldhref\href
+\renewcommand{\href}[2]{\oldhref{#1}{\bfseries#2}}
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage{tasks}
+\hypersetup {
+    colorlinks=true,
+    linkcolor=colorlink,
+    filecolor=magenta,      
+    urlcolor=colorlink,
+}
+\usepackage[left=0.7in, right=2in, top=0.8in]{geometry}
+
+% Increase text height
+\textheight=800pt
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\name{Sourav Ahmed}
+\qualification{Detail oriented, fast learner, tech enthusiasts}
+\emailone{sourav.ahmed5654@gmail.com}
+% \emailtwo{rohan.bavishi95@gmail.com}
+% \website{http://home.iitk.ac.in/~rbavishi}{\url{home.iitk.ac.in/~rbavishi}}
+\linkedin{linkedin.com/in/sourav-ahmed/}{\url{https://www.linkedin.com/in/sourav-ahmed/}}
+\stopstalk{stopstalk.com/user/profile/Sourav9063}{\url{https://www.stopstalk.com/user/profile/Sourav9063}}
+\github{github.com/Sourav9063}{\url{https://github.com/Sourav9063}}
+\phone{+8801760725654}
+% \phone2{+8801711422012}
+
+% \address{Tapaban\\IIT Kanpur\\Kanpur, Uttar Pradesh, India}
+\address{Shahjalal University of Science and Technology\\Sylhet,Bangladesh}
+%-------------------------------------------------------------------------------
+\begin{resume}
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\vspace{-3mm}
+\section{Education}
+\cusemph{Shahjalal University of Science and Technology}, Sylhet, Bangladesh\\
+Software Engineering,\timeline{Jan' 19 - Jan' 24 (Expected)}\\ Institute of Information and Communication Technology (IICT)  \\
+\vspace{2mm}
+\cusemph{CGPA: 3.6/4} (till 3rd year 2nd semester)\\
+\cusemph{Notre Dame College}, Dhaka, Bangladesh \timeline{Jun' 16 - Jun' 18}\\
+Higher Secondary School Certificate
+\cusemph{ GPA: 5/5} \hspace\\
+\vspace{-3ex}
+\sectionline
+\vspace{-3mm}
+\section{Projects}
+{\href{https://github.com/Sourav9063/uBookSharing}{uBookSharing}}: University based Book sharing app with renting, buying etc. options.\\
+\vspace{-4mm}
+\begin{tasks}[style=itemize ,label=\textcolor{gray}{$\bullet$}](5)
+\task Flutter
+\task Firebase
+\task Dart
+\task Rive
+\end{tasks}
+\vspace{-2mm}
+\href{https://sourav9063.github.io/hall_management_rf/}{Hall Management}: Website for managing form submission, validation, issue submission, notice, payment submission, illegal student finding etc. \href{https://github.com/Sourav9063/hall_management_rf}{FrontEnd}, \href{https://github.com/Sourav9063/Backend_hall_management}{BackEnd},
+\href{https://docs.google.com/document/d/1Sy9VO97rWJrOYCMgWRGJz4H2q3vJPSVCpLRm5AUOsO8/edit?usp=sharing}{SRS}\\
+\vspace{-4mm}
+\begin{tasks}[style=itemize ,label=\textcolor{gray}{$\bullet$}](5)
+\task ReactJs 
+\task ASP.NET Core
+\task MySQL 
+\task Javascript
+\task  C{\lserif\#}
+\end{tasks}
+\vspace{-2mm}
+\href{https://github.com/Sourav9063/obstacles_detection}{Obstacle Detection}: Using tensorflow the app describes and warns about obstacles.\\
+\vspace{-4mm}
+\begin{tasks}[style=itemize ,label=\textcolor{gray}{$\bullet$}](5)
+\task Java
+\task TensorFlow Light
+\end{tasks}
+\vspace{-2mm}
+\href{https://github.com/Sourav9063/3rdEye}{3rd Eye}: An app for blind people that can work with voice command, can read anything, has SOS and volunteer video calling.
+\vspace{-4mm}
+\begin{tasks}[style=itemize ,label=\textcolor{gray}{$\bullet$}](5)
+\task[] \hspace
+\task[] \hspace
+\task Java
+\task Android Studio
+\end{tasks}
+\vspace{-2mm}
+\href{https://github.com/Sourav9063/Blog-CRUD-by-Nodejs}{News Blog}: A website for posting, editing and viewing blogs.(University project)\\
+\vspace{-4mm}
+\begin{tasks}[style=itemize ,label=\textcolor{gray}{$\bullet$}](5)
+\task \textwidth{\hfil JavaScript}
+\task MySQL
+\task ExpressJs
+\task ReactJs
+\end{tasks}
+\vspace{-2mm}
+\href{https://github.com/Sourav9063/Hungry-Camper-scripts}{Hungry Camper}: 3rd person game. You have to survive in a stranded island full of dangerous animals.
+\vspace{-4mm}
+\begin{tasks}[style=itemize ,label=\textcolor{gray}{$\bullet$}](5)
+\task[] \hspace
+\task C{\lserif\#} 
+\task Unity 
+\end{tasks}
+\vspace{-2mm}
+\href{https://github.com/Sourav9063/ftp_searcher}{Ftp Searcher}: Command line app that searches through all available ftp link in Bangladesh and enlists all working links.
+\vspace{-4mm}
+\begin{tasks}[style=itemize ,label=\textcolor{gray}{$\bullet$}](5)
+\task[] \hspace
+\task[] \hspace
+\task Javascript 
+\task NodeJs 
+\task Flutter
+\end{tasks}
+\vspace{-2mm}
+\cusemph{Small fun projects: }\href{https://sourav9063.github.io/Touch-The-Ball/}{Touch The Ball} :HTML,CSS,JS based game, \href{https://github.com/Sourav9063/Arduino-projects-linefollower-git}{Line follower and Bluetooth robot} : C++ code, \href{https://github.com/Sourav9063/splayer}{Splayer} : Simple video player, \href{https://github.com/Sourav9063/flutter_learning}{Flutter} advanced UI. \hspace\\
+\sectionline
+\vspace{-7mm}
+%-------------------------------------------------------------------------------
+\section{Skills}
+\begin{project}
+  \title{Problem Solving}
+  \description{
+	- Solved 700+ competitive programming problems in various
+online judges using C++ and Python.\\
+	- Have intermediate level Algorithm and Data Structure knowledge.\\
+  }
+\end{project}
+\begin{project}
+  \title{UI and UX enthusiasm }
+%   \supervisor{Supervisor : Prof. Subhajit Roy}
+%   \duration{Jul '15 - Aug '16}
+  \description{
+	- Love to learn new UI design principles. Likes to experiment with glassmorphism or neumorphism, Illustrations and animations like rive, lottie etc.
+  }
+\end{project}
+\begin{project}
+  \title{Design Pattern implementation}
+%   \supervisor{Supervisor : Prof. Subhajit Roy}
+%   \duration{Jul '15 - Aug '16}
+  \description{
+	- Familiar with different types of design pattern and refactoring process.\\
+	- Loves to organize code for future use.
+  }
+\end{project}
+\begin{project}
+  \title{Database design}
+%   \supervisor{Supervisor : Prof. Subhajit Roy}
+%   \duration{Jul '15 - Aug '16}
+  \description{
+	- Have grasp on the path of Requirement analysis to Database design.\\
+	- Worked with both SQL and NOSQL database.
+  }
+\end{project}
+\begin{project}
+  \title{Programming Languages}
+%   \supervisor{Supervisor : Prof. Subhajit Roy}
+%   \duration{Jul '15 - Aug '16}
+  \description{
+	- C++, C{\lserif\#}, Java, Python, JavaScript(HTML,CSS), Dart, SQL, LaTeX
+  }
+ \end{project}
+\begin{project}
+  \title{Framework \& Library}
+%   \supervisor{Supervisor : Prof. Subhajit Roy}
+%   \duration{Jul '15 - Aug '16}
+  \description{
+	- ASP.NET, Android Studio, ReactJS, ExpressJS, NodeJS, Flutter, Arduino, MySQL, Firebase,\\ - GitHub, Docker
+  }
+ \end{project}
+ \vspace{-4mm}
+ \section{Soft Skills}
+ \begin{project}
+  \title{Great attention span, Attentive to detail, Team player, Communicative, Creative thinker, Humble, Eager to learn, Adaptive }
+  \description{Honest, Patient, Pious}
+ \end{project}
+ \begin{project}
+  \title{Language Skills}
+\description{- Fluent in both English and Bangla.}
+ \end{project}
+\vspace{-2ex}
+\newpage
+\sectionline
+\vspace{-6mm}
+\section{Achievement}
+\begin{project}
+\title{SJ Innovation Hackathon}
+\description{
+	- Got \cusemph{Innovative Idea} prize in Medical Category. \timeline{7 Oct' 21}\\
+}
+\end{project}
+\begin{project}
+\title{BdApps National Hackathon 2022 }
+\description{
+	- 1st place Regional Round 3: Sylhet out of 100+ teams. \timeline{Aug' 22}
+}
+\end{project}
+\begin{project}
+\title{Hack NSU 2022}
+\description{
+	- 5th place in NSU ACM Student Chapter Hackathon.\timeline{Nov' 21}
+}
+\end{project}
+ \vspace{-7mm}
+\section{Experience}
+\begin{project}
+\title{Uttarbanga}
+\description{
+	- Created an application named Uttarbanga for an organization to help them keep track of payments and notifying the due and other notices.\timeline{Nov' 20 - Aug' 21 }
+}
+\end{project}
+\vspace{-2mm}
+\hspace\\
+\sectionline
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+%	COURSE PROJECTS SECTION
+%-------------------------------------------------------------------------------
+\vspace{-7mm}
+\section{Co-curricular}
+\cusemph{Creative executive at SUST ACM Student Chapter }\timeline{Jul' 22 - present}\\
+\cusemph{Assistant office secretary at Manikganj Shamprity, SUST }\timeline{Jan' 22- present }\\
+\cusemph{Assistant treasurer at Maavoi Abritti Samsad, SUST }\timeline{Jan' 20 - Jul' 20}\\
+\cusemph{Volunteer at LICT Techfest, IICT, SUST }\timeline{Mar' 19}\\
+\cusemph{Organizing Committee SUST SWE Technovent 2023, IICT }\timeline{Jan' 23}\\
+\vspace{-7mm}
+\section{Hobbies}
+\begin{project}
+\title{Drawing}
+\description{
+	- Watercolor, Sketch, Digital Illustration
+}
+\end{project}
+\begin{project}
+\title{Recitation}
+\description{
+	- Anchoring, Public speaking
+}
+\end{project}
+\begin{project}
+\title{Tech events}
+\description{
+	- Attracted to current technology and software. 
+}
+\end{project}
+\begin{project}
+\title{Open-source lover}
+\description{
+	- Always try to find new and robust open-source software. Learn from them and share them.
+}
+\end{project}
+\cusemph{Watching horror movies, reading books, traveling places, listening old songs.}\hspace\\
+\vspace{-2ex}
+\sectionline
+%-------------------------------------------------------------------------------
+\end{resume}
+\end{document}
+
+%-------------------------------------------------------------------------------
+
+% %-------------------------------------------------------------------------------
+% %	RESEARCH SECTION
+% %-------------------------------------------------------------------------------
+% \vspace{-3mm}
+% \section{Research\\Interests}
+% \par
+% Program Analysis and Verification, Automated Debugging and Synthesis, \\Compiler Optimizations, Decision Procedures
+
+% %-------------------------------------------------------------------------------
+% %      PUBLICATIONS 
+% %-------------------------------------------------------------------------------
+% \vspace{-3mm}
+% \section{Publications}
+% \cusemph{Rohan Bavishi}, Awanish Pandey, Subhajit Roy, ``To Be Precise : Regression Aware Debugging" to appear in \textit{Proceedings of the 2016 ACM International Conference on Object Oriented Programming Systems Languages \& Applications} (OOPSLA), Amsterdam, Netherlands
+
+% \cusemph{Rohan Bavishi}, Awanish Pandey, Subhajit Roy, ``Regression Aware Debugging for Mobile Applications" to appear in \textit{Proceedings of the 1$^{st}$ International Workshop on Mobile Development} (Mobile! 2016, part of SPLASH 2016), Amsterdam, Netherlands
+
+% \vspace{-2ex}
+% \sectionline
+
+% \begin{project}
+% \title{Peer-to-Peer Dropbox}
+% \supervisor{Supervisor : Prof. Subhajit Roy}
+% \duration{Aug '13 - Nov '13}
+% \description{
+% 	- A linux application for backing-up and syncing files between two or more peers\\
+% 	- Users have a shared folder across different machines, with local copies. Changes made in any one copy are synced across all devices\\
+% 	- Linux \emph{inotify} API used to track changes in the shared folder and \emph{rsync} used to sync the modifications to ensure efficient transfer\\
+% 	- Multithreading with mutexes used to parallelize syncing and file-monitoring operations\\
+% 	- \href{https://github.com/rbavishi/P2P-Dropbox}{Github Link}
+% }
+% \end{project}
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	Interests
+%-------------------------------------------------------------------------------
+% \section{Extra Interests}
+% \cusemph{Project Euler}: Solved : 257/560 \textit{(India Rank : 11)}\\
+% \cusemph{Hobbies}: Competitive Programming, CTF \& Wargames, Quizzing
+
+% \begin{project}
+% \title{End-to-End Compiler for Perl-like Language}
+% \supervisor{Course : Compilers $|$ Supervisor : Prof. Subhajit Roy}
+% \duration{Jan '15 - Apr '15}
+% \description{
+% 	- Built an end-to-end compiler that takes a subset of the Perl language and outputs MIPS assembly\\
+% 	- Implemented Features such as \textit{operator overloading}, \textit{dynamic type-checking}, \textit{variable function arguments}, \textit{hashes}, \textit{lists}, \textit{type-based namespaces} etc.\\
+% 	- \href{https://github.com/vaishious/comperler}{Github Link}
+% }
+% \end{project}
+% \begin{project}
+% \title{Integer Superscalar Processor Simulator based on MIPS-R10K}
+% \supervisor{Course : Computer Architecture $|$ Supervisor : Prof. Mainak Chaudhuri}
+% \duration{Jan '15 - Apr '15}
+% \description{
+% 	- Implemented a superscalar processor simulator based on the MIPS R10K architecture with support for integer instructions only\\
+% 	- Implemented support for Out-of-Order execution, multiple instruction issue and commit, precise interrupts and branch-misprediction rollback\\
+% 	- Configurable parameters supported such as issue width, number of functional units, branch-prediction algorithm, RAS/BTB size, active-list size etc.\\
+% 	- Performed experiments on various synthesized benchmarks to measure performance gains over an in-order processor design. Repeated the experiment with varying parameter configurations\\
+% 	- \href{https://drive.google.com/file/d/0B0--s-r8CTxgV21IYjJWTUJOdm8/view?usp=sharing}{Report}
+% }
+% \end{project}
+% \vspace{-2ex}
+% \sectionline
+% %-------------------------------------------------------------------------------
+
+% %-------------------------------------------------------------------------------
+% %	COMPUTER SKILLS SECTION
+% %-------------------------------------------------------------------------------
+% \section{Computer\\Skills}
+% \cusemph{Languages}: C, C++, Python, Bash, Verilog, \LaTeX, Assembly (x86, MIPS)
+% \\
+% \cusemph{SAT/SMT Solvers}: MathSAT, Z3, Yices
+% \\
+% \cusemph{Research Tools}: CBMC (Proficient), KLEE, CSeq
