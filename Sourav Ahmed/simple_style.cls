@@ -218,7 +218,9 @@
 \usepackage{tabu}
 
 %\definecolor{colorlink}{HTML}{006699}
-\definecolor{colorlink}{HTML}{224191}
+% \definecolor{colorlink}{HTML}{224191}
+\definecolor{colorlink}{HTML}{e66e05}
+
 \definecolor{lightestgray}{HTML}{A9A9A9}
 \definecolor{lightergray}{HTML}{626262}
 \definecolor{lightgray}{HTML}{000000} %595959
@@ -237,13 +239,13 @@
   }{
 	  \vspace{-16ex}
 	  \leavevmode\hbox to 
-	  \textwidth{\hfil\@detailsbox{\@addressone\\
+	  \textwidth{\hfil\@detailsbox{
 			             Email : \@emailone\\
 				    %   Webpage : \@website\\
 				       Github : \@github\\
 				       LinkedIn : \@linkedin\\
 				       StopStalk : \@stopstalk\\
-				       \@phone\\\\}}\par
+				       \textbf{\@phone}\\\@addressone\\\\}}\par
   }%
   % Add a horizontal line after name
   \color{lightestgray}\fullline
@@ -253,7 +255,7 @@
 % this is used to print the name and address at the top of
 % the page with a hline in between
 
-\def\namefont{\huge\bf}
+\def\namefont{\huge\sc}
 \def\qualificationfont{\small\sc}
 \def\detailsfont{\footnotesize}
 \def\@linename{\begingroup
