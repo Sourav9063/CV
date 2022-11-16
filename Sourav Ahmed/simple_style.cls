@@ -244,7 +244,7 @@
 				    %   Webpage : \@website\\
 				       Github : \@github\\
 				       LinkedIn : \@linkedin\\
-				       StopStalk : \@stopstalk\\
+				      StopStalk : \@stopstalk\\
 				       \textbf{\@phone}\\\@addressone\\\\}}\par
   }%
   % Add a horizontal line after name
