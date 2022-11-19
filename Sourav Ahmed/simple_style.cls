@@ -241,10 +241,10 @@
 	  \leavevmode\hbox to 
 	  \textwidth{\hfil\@detailsbox{
 			             Email : \@emailone\\
+			             Github : \@github\\
+			              Website : \@stopstalk\\
 				    %   Webpage : \@website\\
-				       Github : \@github\\
 				       LinkedIn : \@linkedin\\
-				      StopStalk : \@stopstalk\\
 				       \textbf{\@phone}\\\@addressone\\\\}}\par
   }%
   % Add a horizontal line after name
