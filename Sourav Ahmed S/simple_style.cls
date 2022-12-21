@@ -248,6 +248,7 @@
 				       % LinkedIn : \@linkedin\\
 				       \textbf{\@phone}\\\@addressone\\\\}}\par
   }%
+  \vspace{-2mm}
   % Add a horizontal line after name
   \color{lightestgray}\fullline
 \endgroup}
