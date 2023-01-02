@@ -219,7 +219,9 @@
 
 %\definecolor{colorlink}{HTML}{006699}
 % \definecolor{colorlink}{HTML}{224191}
-\definecolor{colorlink}{HTML}{e66e05}
+% \definecolor{colorlink}{HTML}{e66e05}
+ \definecolor{colorlink}{HTML}{e85d04}
+ 
 
 \definecolor{lightestgray}{HTML}{A9A9A9}
 \definecolor{lightergray}{HTML}{626262}
@@ -257,12 +259,12 @@
 % this is used to print the name and address at the top of
 % the page with a hline in between
 
-\def\namefont{\huge\sc\bf}
+\def\namefont{\Huge\bf\sc}
 \def\qualificationfont{\small\sc}
 \def\detailsfont{\footnotesize}
 \def\@linename{\begingroup
-  \def\\{ : }
-  {\namefont\@name}
+  \ef\\{ : }
+{\namefont\@name}
   \vskip 2pt
   \fullline
   \vskip 2pt
