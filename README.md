@@ -3,17 +3,13 @@
 🔗 [LinkedIn](https://www.linkedin.com/in/sourav-ahmed/) | 🌐 [Portfolio](https://sourav9063.github.io/) | 🧑‍💻 [GitHub](https://github.com/Sourav9063)  
 📧 [Email](mailto:sourav.ahmed5654@gmail.com): sourav.ahmed5654@gmail.com  
 📱 Phone: +8801760725654  
-📍 Address: Mirpur 11, Dhaka, Bangladesh
-
----
+📍 Address: Dhaka, Bangladesh
 
 ## Education 🎓
 **Shahjalal University of Science and Technology**, Sylhet, Bangladesh  
 *Software Engineering*, Jan'19 - Jan'24  
 Institute of Information and Communication Technology (IICT)  
 **CGPA**: 3.64
-
----
 
 ## Experience 💼
 
@@ -28,8 +24,6 @@ Institute of Information and Communication Technology (IICT)
 ### Software Engineer I  
 **Pathao Ltd.** | Dec'24 - Present  
 - Full-Stack Engineer at the Data Engineering department.
-
----
 
 ## Works 🛠️
 
@@ -56,8 +50,6 @@ Worked on payment disbursement system, admin panel, and app backend development.
 ### [Pathao Map](https://maps.pathao.io/)
 Developed the community contribution platform, handled access control, and worked in a distributed system.  
 - **Technologies**: GoLang, VueJs, NuxtJs, Docker
-
----
 
 ## Projects 💡
 
@@ -87,15 +79,11 @@ A website to watch movies and series.
 A web and desktop application that aggregates and lists user-specific active FTP links from Bangladesh for easy access.  
 - **Technologies**: NextJs, ElectronJs
 
----
-
 ## Publications 📚
 
 ### [IPA Transcription of Bengali Texts](https://arxiv.org/abs/2403.20084)
 The paper advocates for a standardized Bengali IPA, with a new dataset and model, to advance the development of NLP applications.  
 - **Technologies**: Pandas, TensorFlow
-
----
 
 ## Achievements 🏆
 
@@ -110,8 +98,6 @@ The paper advocates for a standardized Bengali IPA, with a new dataset and model
 ### Idea Competition of Mobile App Game & Job Festival 2023  
 - **1st Runner Up**  
 - Mar'23
-
----
 
 ## Co-curricular 🎉
 
