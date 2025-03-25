@@ -14,7 +14,7 @@ body {
 
 /* Headings styling with reduced margins and golden ratio */
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0.25rem;     /* Reduced top margin */
+/* Reduced top margin */
   margin-bottom: 0.4rem;   /* Reduced bottom margin */
   color: #000;
 }
@@ -27,6 +27,7 @@ h1 {
 h2 {
   font-size: 1.618rem;     /* 19.42px (golden ratio of h1) */
   margin-bottom: 0.3rem;
+  border-bottom:2px solid #333 ;
 }
 
 h3 {
@@ -48,13 +49,13 @@ section {
 
 /* Text blocks and paragraphs */
 p {
-  margin-bottom: 0.75rem;    /* Reduced margin */
+  margin-bottom: 0.25rem;    /* Reduced margin */
 }
 
 ul, ol {
   margin-left: 1rem;         /* Left margin reduced */
-  margin-bottom: 0.5rem;     /* Reduced bottom margin */
-  padding-left: 1.25rem;     /* Reduced padding */
+  margin-bottom: 0.25rem;     /* Reduced bottom margin */
+  padding-left: 0.5rem;     /* Reduced padding */
 }
 
 li {
@@ -64,10 +65,6 @@ li {
 /* Links */
 a {
   color: #0366d6;
-  text-decoration: none;
-}
-
-a:hover {
   text-decoration: underline;
 }
 
