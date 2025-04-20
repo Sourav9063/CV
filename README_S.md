@@ -1,5 +1,6 @@
 # Sourav Ahmed
 <!---
+https://md-to-pdf.fly.dev/
 **Detail-oriented, fast learner, tech enthusiast**  
 [LinkedIn](https://www.linkedin.com/in/sourav-ahmed/) | [Portfolio](https://sourav9063.github.io/) | [GitHub](https://github.com/Sourav9063)  
 [Email](mailto:sourav.ahmed5654@gmail.com): sourav.ahmed5654@gmail.com  
@@ -9,21 +10,28 @@ Address: Dhaka, Bangladesh
 <div style="display: flex;">
   <div style="flex: 1; display:flex; flex-direction:column">
   <a href="https://www.linkedin.com/in/sourav-ahmed/">https://www.linkedin.com/in/sourav-ahmed</a><br>
-  <a href="https://sourav9063.github.io/">https://sourav9063.github.io</a><br>
+  <a href="https://sourav9063.github.io/">https://sourav9063.github.io</a>
+  <!---
+  <br>
   <a href="https://github.com/Sourav9063">https://github.com/Sourav9063</a>
+  -->
 </div>
 <div style="flex: 1;">
   <strong>Email:</strong> <a href="mailto:sourav.ahmed5654@gmail.com">sourav.ahmed5654@gmail.com</a><br>
   <strong>Phone:</strong> +8801760725654<br>
+  <!---
   <strong>Address:</strong> Dhaka, Bangladesh
+  -->
 </div>
 </div>
 
 ## Education
 
 **Shahjalal University of Science and Technology**, Sylhet, Bangladesh  
-**Software Engineering**, Jan'19 - Jan'24  
+**Software Engineering** | Jan'19 - Jan'24 | **CGPA**: 3.64
+<!---
 Institute of Information and Communication Technology (IICT) • **CGPA**: 3.64
+-->
 
 ## Experience
 
