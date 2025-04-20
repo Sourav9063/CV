@@ -1,15 +1,28 @@
 # Sourav Ahmed
-
+<!---
 **Detail-oriented, fast learner, tech enthusiast**  
 [LinkedIn](https://www.linkedin.com/in/sourav-ahmed/) | [Portfolio](https://sourav9063.github.io/) | [GitHub](https://github.com/Sourav9063)  
 [Email](mailto:sourav.ahmed5654@gmail.com): sourav.ahmed5654@gmail.com  
 Phone: +8801760725654  
 Address: Dhaka, Bangladesh
+-->
+<div style="display: flex;">
+  <div style="flex: 1; display:flex; flex-direction:column">
+  <a href="https://www.linkedin.com/in/sourav-ahmed/">https://www.linkedin.com/in/sourav-ahmed</a><br>
+  <a href="https://sourav9063.github.io/">https://sourav9063.github.io</a><br>
+  <a href="https://github.com/Sourav9063">https://github.com/Sourav9063</a>
+</div>
+<div style="flex: 1;">
+  <strong>Email:</strong> <a href="mailto:sourav.ahmed5654@gmail.com">sourav.ahmed5654@gmail.com</a><br>
+  <strong>Phone:</strong> +8801760725654<br>
+  <strong>Address:</strong> Dhaka, Bangladesh
+</div>
+</div>
 
 ## Education
 
 **Shahjalal University of Science and Technology**, Sylhet, Bangladesh  
-_Software Engineering_, Jan'19 - Jan'24  
+**Software Engineering**, Jan'19 - Jan'24  
 Institute of Information and Communication Technology (IICT) • **CGPA**: 3.64
 
 ## Experience
@@ -65,10 +78,11 @@ An app using TensorFlow that describes and warns about obstacles.
 ### [Sync Play](https://github.com/Sourav9063/watchtogether)
 A collaborative video-watching platform with shared media controls for both locally stored and cloud-based videos.
 • NextJs • Socket.IO • Firebase
-
+<!---
 ### [Free Stream](https://syncplay.vercel.app/free-stream)
 A website to watch movies and series.
 • NextJs
+-->
 
 ### [FTP Searcher](https://searchftp.vercel.app/)
 A web and desktop application that aggregates and lists user-specific active FTP links from Bangladesh for easy access.
@@ -80,7 +94,7 @@ A web and desktop application that aggregates and lists user-specific active FTP
 ### [IPA Transcription of Bengali Texts](https://arxiv.org/abs/2403.20084)
 The paper advocates for a standardized Bengali IPA, with a new dataset and model, to advance the development of NLP applications.
 • Pandas • TensorFlow
-
+<!---
 ## Achievements
 
 - **SJ Innovation Hackathon | Innovative Idea Prize** in the Medical Category. | Oct'21
@@ -92,3 +106,4 @@ The paper advocates for a standardized Bengali IPA, with a new dataset and model
 - **Creative Executive** at SUST ACM Student Chapter | Jul'22 - Jan'23
 - **Assistant Treasurer** at Maavoi Abritti Samsad, SUST | Jan'20 - Jul'20
 - **Assistant Office Secretary** at Manikganj Shamprity, SUST | Jan'22 - Aug'22
+-->
