@@ -5,8 +5,9 @@ html {
 
 body {
   font-family: 'Arial', sans-serif;
-  margin: 1rem;      /* Maximum margin is 1rem */
-  padding: 0.5rem;   /* Reduced padding */
+  margin: 0rem;      /* Maximum margin is 1rem */
+  margin-top:-1.5rem;
+  padding: 0rem;   /* Reduced padding */
   max-width: 60rem;  /* 960px (12 * 80) */
   line-height: 1.618;  /* Using golden ratio for line-height */
   color: #333;
@@ -15,62 +16,63 @@ body {
 
 /* Headings styling with reduced margins and golden ratio */
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0.25rem; /* Reduced top margin */
-  margin-bottom: 0.4rem;   /* Reduced bottom margin */
+  margin-top: 0rem; /* Reduced top margin */
+  margin-bottom: 0rem;   /* Reduced bottom margin */
   color: #000;
 }
 
 h1 {
   font-size: 2rem;         /* 24px */
-  margin-bottom: 0.4rem;   /* Golden ratio adjustment */
 }
 
 h2 {
   font-size: 1.618rem;     /* 19.42px (golden ratio of h1) */
-  margin-bottom: 0.4rem;
   border-bottom:2px solid #333;
 }
 
 h3 {
-  font-size: 1rem;         /* 12px */
-  margin-bottom: 0.4rem;
+  font-size: 1rem;/* 12px */
+  display:inline-block;
 }
 
 h4, h5, h6 {
   font-size: 0.618rem;     /* 7.42px (golden ratio of h3) */
-  margin-bottom: 0.25rem;
 }
 
 /* Section titles with reduced bottom margin */
 section {
-  padding-bottom: 0.25rem;
+  padding-bottom: 0rem;
   border-bottom: 1px solid #eaecef;
 }
 
 /* Text blocks and paragraphs */
 p {
-  margin-bottom: 0.25rem;    /* Reduced margin */
+  margin-top:0px;
+  margin-bottom: 0rem;    /* Reduced margin */
 }
 
 div{
-  margin-bottom: 0.25rem;   
+  margin-bottom: 0rem;   
 }
 
 ul, ol {
   margin-left: 1rem;         /* Left margin reduced */
-  margin-bottom: 0.25rem;     /* Reduced bottom margin */
+  margin-bottom: 0rem;     /* Reduced bottom margin */
   padding-left: 0.75rem;     /* Reduced padding */
+  margin-top:0px;
 }
 
 li {
-  margin-bottom: 0.2rem;    /* Reduced margin */
+  margin-bottom: 0rem;  
+  margin-top:0px;/* Reduced margin */
 }
 
 /* Links */
 a {
   color: #0366d6;
   text-decoration: underline;
-   margin-bottom: 0.2rem; 
+  margin-bottom: 0rem; 
+   display:inline-block;
 }
 
 
@@ -78,7 +80,7 @@ a {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 0.75rem;     /* Reduced margin */
+  margin-bottom: 0rem;     /* Reduced margin */
 }
 
 th, td {
