@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2rem;         /* 24px */
+  border-bottom:2px solid #333;
 }
 
 h2 {
@@ -53,6 +54,7 @@ p {
 
 div{
   margin-bottom: 0rem;   
+    margin-top:0px;
 }
 
 ul, ol {
@@ -72,10 +74,14 @@ a {
   color: #0366d6;
   text-decoration: underline;
   margin-bottom: 0rem; 
-   display:inline-block;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
-
+strong {
+  margin-bottom: 0rem;   
+    margin-top:0px;
+}
 /* Formatting for tables */
 table {
   width: 100%;
