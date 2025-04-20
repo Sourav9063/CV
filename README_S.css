@@ -6,7 +6,8 @@ html {
 body {
   font-family: 'Arial', sans-serif;
   margin: 0rem;      /* Maximum margin is 1rem */
-  margin-top:-1.5rem;
+  margin-top:-1.65rem;
+  margin-bottom:-1.65rem;
   padding: 0rem;   /* Reduced padding */
   max-width: 60rem;  /* 960px (12 * 80) */
   line-height: 1.618;  /* Using golden ratio for line-height */
@@ -75,7 +76,7 @@ a {
   text-decoration: underline;
   margin-bottom: 0rem; 
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 strong {
