@@ -10,8 +10,7 @@ Address: Dhaka, Bangladesh
 
 **Shahjalal University of Science and Technology**, Sylhet, Bangladesh  
 _Software Engineering_, Jan'19 - Jan'24  
-Institute of Information and Communication Technology (IICT)  
-**CGPA**: 3.64
+Institute of Information and Communication Technology (IICT) • **CGPA**: 3.64
 
 ## Experience
 
@@ -22,7 +21,7 @@ Institute of Information and Communication Technology (IICT)
 • Extended an offer for a permanent position after internship completion.
 
 **Software Engineer I | Pathao Ltd.** | Dec'24 - Present
-• Full-Stack Engineer at the Data Engineering department.
+• Full-Stack Engineer at the Data Engineering.
 
 ## Works
 
