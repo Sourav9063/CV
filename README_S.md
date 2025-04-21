@@ -8,19 +8,19 @@ Phone: +8801760725654
 Address: Dhaka, Bangladesh
 -->
 <div style="display: flex;">
+<div style="flex: 1;">
+  <strong>Email:</strong> <a href="mailto:sourav.ahmed5654@gmail.com">sourav.ahmed5654@gmail.com</a><br>
+  <strong>Phone:</strong> +8801760725654<br>
+  <!---
+  <strong>Address:</strong> Dhaka, Bangladesh
+  -->
+</div>
   <div style="flex: 1; display:flex; flex-direction:column">
   <a href="https://www.linkedin.com/in/sourav-ahmed/">https://www.linkedin.com/in/sourav-ahmed</a><br>
   <a href="https://sourav9063.github.io/">https://sourav9063.github.io</a>
   <!---
   <br>
   <a href="https://github.com/Sourav9063">https://github.com/Sourav9063</a>
-  -->
-</div>
-<div style="flex: 1;">
-  <strong>Email:</strong> <a href="mailto:sourav.ahmed5654@gmail.com">sourav.ahmed5654@gmail.com</a><br>
-  <strong>Phone:</strong> +8801760725654<br>
-  <!---
-  <strong>Address:</strong> Dhaka, Bangladesh
   -->
 </div>
 </div>
