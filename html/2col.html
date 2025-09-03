@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourav Ahmed - Resume</title>
+    <style>
+        /* A4 paper size and print settings */
+        @page {
+            size: A4;
+            margin: 1cm;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.4;
+            color: #333;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+        }
+
+        .resume-container {
+            width: 100%;
+            max-width: 21cm; /* A4 width */
+            padding: 1.5cm 1cm;
+            box-sizing: border-box;
+        }
+
+        /* Flexbox for main content */
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .left-column {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .right-column {
+            flex: 2;
+            min-width: 350px;
+        }
+
+        /* Headings and sections */
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.2rem;
+        }
+        
+        h2 {
+            font-size: 1.2rem;
+            margin: 15px 0 5px 0;
+            border-bottom: 2px solid #333;
+        }
+        
+        h3 {
+            font-size: 1rem;
+            margin-bottom: 0.2rem;
+        }
+
+        section {
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        ul {
+            margin: 5px 0 5px 20px;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            margin: 0 10px;
+            font-size: 0.9rem;
+        }
+
+        /* Print-specific styles */
+        @media print {
+            body {
+                width: 21cm;
+                height: 29.7cm;
+                margin: 0;
+                padding: 0;
+            }
+
+            .resume-container {
+                padding: 1cm;
+            }
+
+            .contact-info {
+                justify-content: space-between;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <header>
+            <h1 style="text-align: center;">Sourav Ahmed</h1>
+            <p style="text-align: center; margin-bottom: 10px;"><strong>Detail-oriented, fast learner, tech enthusiast</strong></p>
+            <div class="contact-info">
+                <p>
+                    <a href="https://www.linkedin.com/in/sourav-ahmed/">LinkedIn</a> |
+                    <a href="https://sourav9063.github.io/">Portfolio</a> |
+                    <a href="https://github.com/Sourav9063">GitHub</a>
+                </p>
+                <p>
+                    <a href="mailto:sourav.ahmed5654@gmail.com">Email</a>: sourav.ahmed5654@gmail.com
+                </p>
+                <p>Phone: +8801760725654 | Address: Dhaka, Bangladesh</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="right-column">
+                <section>
+                    <h2>Experience</h2>
+                    <p><strong>Software Engineer I | Pathao Ltd.</strong> | Dec'24 - Present</p>
+                    <ul>
+                        <li>Full-Stack Engineer at the Data Engineering department. Member of Super AI team.</li>
+                    </ul>
+                    <p><strong>Associate Software Engineer | ShellBeeHaken Ltd.</strong> | Aug'23 - Nov'24</p>
+                    <ul>
+                        <li>Extended an offer for a permanent position after internship completion.</li>
+                    </ul>
+                    <p><strong>Intern Software Engineer | ShellBeeHaken Ltd.</strong> | Feb'23 - Aug'23</p>
+                    <ul>
+                        <li>Worked as an intern in a corporate environment, contributing to live projects.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Works & Projects</h2>
+                    <h3><a href="https://maps.pathao.io/">Pathao Map</a></h3>
+                    <p>Developed the community contribution platform, handled access control, and worked in a distributed system.</p>
+                    <p style="font-size: 0.8rem; color: #555;">GoLang, VueJs, NuxtJs, Docker</p>
+                    
+                    <h3><a href="https://mapage.net/stylist/landing-page">Mapage</a></h3>
+                    <p>A reservation and payment management system. Worked on real-time communication and design implementation.</p>
+                    <p style="font-size: 0.8rem; color: #555;">NextJs, MongoDB</p>
+
+                    <h3><a href="https://github.com/Sourav9063/hall_management_rf/">Hall Management</a></h3>
+                    <p>A website for managing form submissions, validation, issue submissions, notices, payments, illegal student finding, etc.</p>
+                    <p style="font-size: 0.8rem; color: #555;">ReactJs, ExpressJs, MySQL</p>
+
+                    <h3><a href="https://github.com/Sourav9063/uBookSharing">uBookSharing</a></h3>
+                    <p>A university-based book-sharing app with renting, buying, etc. options.</p>
+                    <p style="font-size: 0.8rem; color: #555;">Flutter, Firebase, Rive</p>
+                    
+                    <h3><a href="https://searchftp.vercel.app/">FTP Searcher</a></h3>
+                    <p>A web and desktop application that aggregates and lists user-specific active FTP links from Bangladesh for easy access.</p>
+                    <p style="font-size: 0.8rem; color: #555;">NextJs, ElectronJs</p>
+                </section>
+            </div>
+
+            <div class="left-column">
+                <section>
+                    <h2>Education</h2>
+                    <p><strong>Shahjalal University of Science and Technology</strong>, Sylhet, Bangladesh</p>
+                    <p><em>Software Engineering</em>, Jan'19 - Jan'24</p>
+                    <p>Institute of Information and Communication Technology (IICT)</p>
+                    <p><strong>CGPA</strong>: 3.64</p>
+                </section>
+
+                <section>
+                    <h2>Publications</h2>
+                    <p><strong><a href="https://arxiv.org/abs/2403.20084">IPA Transcription of Bengali Texts</a></strong></p>
+                    <p>The paper advocates for a standardized Bengali IPA, with a new dataset and model, to advance the development of NLP applications.</p>
+                    <p style="font-size: 0.8rem; color: #555;">Pandas, TensorFlow</p>
+                </section>
+
+                <section>
+                    <h2>Achievements</h2>
+                    <ul>
+                        <li><strong>SJ Innovation Hackathon | Innovative Idea Prize</strong> in the Medical Category. | Oct'21</li>
+                        <li><strong>BdApps National Hackathon 2022 | 1st place</strong> in Regional Round 3: Sylhet, out of 100+ teams. | Aug'22</li>
+                        <li><strong>Idea Competition of Mobile App Game & Job Festival 2023 | 1st Runner Up</strong> | Mar'23</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Co-curricular</h2>
+                    <ul>
+                        <li><strong>Creative Executive</strong> at SUST ACM Student Chapter | Jul'22 - Jan'23</li>
+                        <li><strong>Assistant Treasurer</strong> at Maavoi Abritti Samsad, SUST | Jan'20 - Jul'20</li>
+                        <li><strong>Assistant Office Secretary</strong> at Manikganj Shamprity, SUST | Jan'22 - Aug'22</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
