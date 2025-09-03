@@ -25,7 +25,7 @@ Institute of Information and Communication Technology (IICT)
 
 **Software Engineer I | Pathao Ltd.** | Dec'24 - Present
 
-- Full-Stack Engineer at the Data Engineering department.
+- Full-Stack Engineer at the Data Engineering department. Member of Super AI team.
 
 ## Works
 
@@ -58,6 +58,14 @@ A platform for creatives for reservations and payment management. Worked on paym
 Developed the community contribution platform, handled access control, and worked in a distributed system.
 
 - GoLang, VueJs, NuxtJs, Docker
+
+### Loop
+
+A campaing management system for every platform of Pathao
+
+### GariKoi
+
+This project visualizes Driver location, Allocation/Deallocation.
 
 ## Projects
 
