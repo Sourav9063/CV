@@ -28,18 +28,18 @@ Address: Dhaka, Bangladesh
 ## Education
 
 ### Bachelor of Science (BSc)
-**Shahjalal University of Science and Technology**, Sylhet, Bangladesh  
-**Software Engineering** | Jan'19 - Jan'24 | **CGPA**: 3.64
+&nbsp;&nbsp;**Shahjalal University of Science and Technology**, Sylhet, Bangladesh  
+&nbsp;&nbsp;**Software Engineering** | Jan'19 - Jan'24 | **CGPA**: 3.64
 <!---
 Institute of Information and Communication Technology (IICT) • **CGPA**: 3.64
 -->
 
 ### Higher Secondary Certificate (HSC)
-**Notre Dame College**, Dhaka, Bangladesh
+&nbsp;&nbsp;**Notre Dame College**, Dhaka, Bangladesh | 
 **Science** | Jan'16 - Dec-18 | **GPA**: 5.00
 
 ### Secondary School Certificate (SSC)
-**Manikganj Govt. High School**, Manikganj, Bangladesh
+&nbsp;&nbsp;**Manikganj Govt. High School**, Manikganj, Bangladesh | 
 **Science** | Jan'11 - Dec-15 | **GPA**: 5.00
 
 ## Experience
@@ -85,7 +85,7 @@ The paper advocates for a standardized Bengali IPA, with a new dataset and model
 - **Govt. Talent Hunt | 1st place** in regional | Oct'16 | Sept'17
 - **SJ Innovation Hackathon | Innovative Idea Prize** in the Medical Category. | Oct'21
 - **Hack NSU | 5th place** in the Medical Category. | Feb'22
-- **BdApps National Hackathon 2022 | 1st place** in Regional Round 3: Sylhet, out of 100+ teams. | Aug'22
+- **BdApps National Hackathon 2022 | 1st place** in Regional Round 3: Sylhet. | Aug'22
 - **Idea Competition of Mobile App Game & Job Festival 2023 | 1st Runner Up** | Mar'23
 
 ## Co-curricular
