@@ -161,9 +161,8 @@
         all: unset;
         background: transparent;
         position: fixed;
-        top: 16px;
-        right: 16px;
-        font-size: 20pt;
+        top: 8px;
+        right: 8px;
         cursor: pointer;
       }
 
@@ -189,7 +188,18 @@
   </head>
   <body>
     <button class="print-button" title="Print Resume" onclick="window.print()">
-      🖨️
+      <svg
+        width="32"
+        height="32"
+        viewBox="-2 -2 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="xMinYMin"
+        class="jam jam-printer"
+      >
+        <path
+          d="M16 14h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h1V9h12zM4 4V0h12v4h1a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3h-1v4H4v-4H3a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3zm2 14h8v-7H6zM6 4h8V2H6z"
+        />
+      </svg>
     </button>
     <h1>Sourav Ahmed</h1>
     <header>
