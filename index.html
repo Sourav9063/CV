@@ -157,7 +157,20 @@
         display: inline;
       }
 
+      .print-button {
+        all: unset;
+        background: transparent;
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        font-size: 20pt;
+        cursor: pointer;
+      }
+
       @media print {
+        .print-button {
+          display: none;
+        }
         body {
           padding: 0.2in 0.4in 0.3in;
         }
@@ -175,6 +188,9 @@
     </style>
   </head>
   <body>
+    <button class="print-button" title="Print Resume" onclick="window.print()">
+      🖨️
+    </button>
     <h1>Sourav Ahmed</h1>
     <header>
       <a href="https://www.linkedin.com/in/sourav-ahmed/">LinkedIn</a> •
