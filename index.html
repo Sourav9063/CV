@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sourav Ahmed - Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @page {
+        size: A4;
+        margin: 0;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --spacing-xs: 1pt;
+        --spacing-sm: 2pt;
+        --spacing-md: 5pt;
+        --spacing-lg: 8pt;
+        --color-heading: #0d0d0d;
+        --color-subheading: #364959;
+        --color-text: #5a6473;
+        --color-muted: #949ba6;
+        --color-light: #949ba6;
+      }
+
+      body {
+        font-family: "Roboto Slab", serif;
+        line-height: 1.3;
+        color: var(--color-text);
+        background: #fff;
+        font-size: 9.5pt;
+        padding: 0.2in 0.4in 0.3in;
+        max-width: 8.27in;
+        margin: 0 auto;
+      }
+
+      h1 {
+        font-size: 22pt;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 3pt;
+        color: var(--color-heading);
+      }
+
+      h2 {
+        font-size: 11pt;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5pt;
+        margin-top: var(--spacing-md);
+        margin-bottom: var(--spacing-sm);
+        padding-bottom: var(--spacing-xs);
+        border-bottom: 1.2pt solid var(--color-light);
+        color: var(--color-subheading);
+      }
+
+      a {
+        color: var(--color-text);
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        font-weight: 500;
+      }
+
+      header a {
+        color: var(--color-text);
+      }
+
+      header {
+        text-align: center;
+        font-size: 9pt;
+        color: var(--color-text);
+        margin-bottom: var(--spacing-lg);
+      }
+
+      section > p {
+        margin: var(--spacing-xs) 0 var(--spacing-sm);
+      }
+
+      section > div:has(strong:first-child) {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: var(--spacing-sm);
+        margin-bottom: var(--spacing-xs);
+        font-weight: 700;
+      }
+
+      section > div:has(strong:first-child) em {
+        font-size: 9pt;
+        color: var(--color-muted);
+        white-space: nowrap;
+        font-style: italic;
+        font-weight: 400;
+      }
+
+      ul {
+        margin-bottom: var(--spacing-sm);
+      }
+
+      ul li {
+        margin-left: 15pt;
+        margin-bottom: var(--spacing-xs);
+      }
+
+      ul li strong {
+        font-weight: 500;
+      }
+
+      ul li em {
+        font-size: 9pt;
+        color: var(--color-muted);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15pt;
+      }
+
+      .grid article {
+        margin: var(--spacing-sm) 0;
+      }
+
+      .grid article a {
+        font-weight: 700;
+        display: block;
+        margin-bottom: 0;
+      }
+
+      .grid article p {
+        font-size: 9pt;
+        margin: 0;
+      }
+
+      .grid article p span {
+        font-size: 8.5pt;
+        color: var(--color-light);
+      }
+
+      #education div:last-child {
+        margin: 0;
+      }
+
+      #publications article a {
+        font-weight: 700;
+        display: inline;
+      }
+
+      @media print {
+        body {
+          padding: 0.2in 0.4in 0.3in;
+        }
+        h2,
+        section > div:has(strong:first-child) {
+          page-break-after: avoid;
+        }
+        .grid {
+          page-break-inside: avoid;
+        }
+        /* section:last-of-type {
+          padding-top: 0.2in;
+        } */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sourav Ahmed</h1>
+    <header>
+      <a href="https://www.linkedin.com/in/sourav-ahmed/">LinkedIn</a> •
+      <a href="https://sourav9063.github.io/">Portfolio</a> •
+      <a href="https://github.com/Sourav9063">GitHub</a><br />
+      <a href="mailto:sourav.ahmed5654@gmail.com">sourav.ahmed5654@gmail.com</a>
+      • +8801760725654 • Dhaka, Bangladesh
+    </header>
+
+    <section>
+      <h2>Summary</h2>
+      <p>
+        <strong
+          >Full-Stack Software Engineer • AI/ML Enthusiast • Open Source
+          Contributor</strong
+        >
+        with 4+ years building scalable applications and distributed systems at
+        high-growth startups. Expert in JavaScript/TypeScript, real-time
+        systems, and cloud infrastructure with proven 0-to-1 product launches.
+        Currently integrating LLMs (Claude, GPT-4) and AI-assisted workflows
+        into production, optimizing developer velocity by 40%.
+      </p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div>
+        <strong>Software Engineer I | Pathao Ltd.</strong>
+        <em>Dec'24 - Present</em>
+      </div>
+      <p>
+        Full-stack engineer delivering scalable platforms across mapping,
+        campaign management, and real-time systems serving 100K+ daily users
+        while contributing to Super AI team's LLM integration efforts.
+      </p>
+      <ul>
+        <li>
+          <strong>Dashboard Foundation:</strong> Engineered NextJs framework
+          with OpenAPI-driven type generation and Zod validation, powering rapid
+          cross-sector development with shadcn UI, centralized auth/RBAC, and
+          embedded AI guardrails.
+        </li>
+        <li>
+          <strong><a href="https://maps.pathao.io/">Pathao Map</a>:</strong>
+          Architected microservices-based community platform with RBAC serving
+          100K+ daily users using • GoLang • VueJs • NuxtJs • Docker.
+        </li>
+        <li>
+          <strong>Loop:</strong> Built full-stack campaign management platform
+          handling marketing operations across all services with cloud image
+          pipeline and real-time analytics.
+        </li>
+        <li>
+          <strong>Mission:</strong> Developed gamification platform with
+          event-based listeners rewarding users for action streaks. Built
+          dashboard for mission, entry, phase, goal management • analytics using
+          • NextJs • Go • PostgreSQL • Redis • BigQuery.
+        </li>
+        <li>
+          <strong
+            ><a href="https://restoweb.p-stageenv.xyz/">Resto Web</a>:</strong
+          >
+          Engineered restaurant SaaS with WebSocket real-time notifications,
+          dynamic menus, analytics dashboard using • NextJs • Zod • TypeScript.
+        </li>
+        <li>
+          <strong>GariKoi:</strong> Developed real-time geo tracking system
+          visualizing driver locations, allocation/deallocation for operations.
+        </li>
+      </ul>
+
+      <div>
+        <strong>Associate Software Engineer | ShellBeeHaken Ltd.</strong>
+        <em>Aug'23 - Nov'24</em>
+      </div>
+      <p>
+        Promoted to full-time after delivering production applications across
+        diverse business domains.
+      </p>
+      <ul>
+        <li>
+          <strong
+            ><a href="https://mapage.net/stylist/landing-page">Mapage</a
+            >:</strong
+          >
+          Built real-time communication system for reservation/payment platform
+          using • Socket.IO • NextJs • MongoDB with optimistic updates and
+          conflict resolution.
+        </li>
+        <li>
+          <strong
+            ><a href="https://shellbeehaken.com/portfolio/8">UUORK</a>:</strong
+          >
+          Engineered cross-platform workspace app (ElectronJs + NextJs) with JWT
+          authentication, real-time collaboration, responsive design.
+        </li>
+        <!-- <li>
+          <strong
+            ><a href="https://shellbeehaken.com/portfolio/6">Honnemir</a
+            >:</strong
+          >
+          Developed multimedia voting platform with • GraphQL API • AWS Amplify
+          • S3 upload pipeline • admin moderation dashboard.
+        </li> -->
+        <li>
+          <strong><a href="https://kriyakarak.com/">KriyaKarak</a>:</strong>
+          Implemented payment disbursement system with automated payouts •
+          reconciliation dashboard for creative marketplace using • NextJs •
+          MongoDB.
+        </li>
+      </ul>
+
+      <div>
+        <strong>Software Engineer Intern | ShellBeeHaken Ltd.</strong>
+        <em>Feb'23 - Aug'23</em>
+      </div>
+      <p>
+        Shipped features and fixed critical bugs across multiple production
+        codebases with agile processes.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div>
+        <strong
+          >Shahjalal University of Science and Technology, Sylhet,
+          Bangladesh</strong
+        >
+        <em>Jan'19 - Jan'24</em>
+      </div>
+      <div>
+        Institute of Information and Communication Technology (IICT)<br />
+        <strong>Bachelor of Science in Software Engineering</strong> •
+        <strong>CGPA: 3.64/4.00</strong> • Ranked 2nd in class (all courses
+        first attempt)
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="grid">
+        <div>
+          <!-- <article>
+            <a href="https://github.com/Sourav9063/uBookSharing"
+              >uBookSharing</a
+            >
+            <p>
+              University textbook marketplace with rental/purchase, ratings,
+              Firebase real-time sync, custom Rive animations.
+              <span>• Flutter • Firebase • Rive</span>
+            </p>
+          </article> -->
+          <article>
+            <a href="https://github.com/Sourav9063/obstacles_detection"
+              >Obstacle Detection</a
+            >
+            <p>
+              Accessibility app using TensorFlow Lite for real-time object
+              detection with audio warnings for visually impaired.
+              <span>• Java • TensorFlow Lite • Computer Vision</span>
+            </p>
+          </article>
+          <article>
+            <a href="https://github.com/Sourav9063/flash-vscode"
+              >Flash VSCode</a
+            >
+            <p>
+              Published extension porting flash.nvim navigation to VS Code with
+              500+ installs, 5-star rating, intelligent search, multi-cursor.
+              <span>• TypeScript • VSCode API</span>
+            </p>
+          </article>
+        </div>
+        <div>
+          <!-- <article>
+            <a href="https://sourav9063.github.io/hall_management_rf/"
+              >Hall Management</a
+            >
+            <p>
+              Full-stack dormitory system with form validation, issue tracking,
+              notice board, payment processing, student verification, RESTful
+              API.
+              <span>• ReactJs • ExpressJs • MySQL</span>
+            </p>
+          </article> -->
+          <article>
+            <a href="https://github.com/Sourav9063/watchtogether">Sync Play</a>
+            <p>
+              Collaborative video platform with synchronized playback, chat,
+              local/cloud media support using WebSocket real-time.
+              <span>• NextJs • Socket.IO • Firebase</span>
+            </p>
+          </article>
+          <article>
+            <a href="https://searchftp.vercel.app/">FTP Searcher</a>
+            <p>
+              Cross-platform FTP aggregator with search indexing, content
+              discovery for local network sharing.
+              <span>• NextJs • ElectronJs</span>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <article>
+        <a href="https://arxiv.org/abs/2403.20084"
+          >IPA Transcription of Bengali Texts</a
+        >
+        (arXiv 2024) — Standardized Bengali IPA phonetic transcription with
+        novel dataset and deep learning model advancing NLP for low-resource
+        languages. • Python • TensorFlow • NLP • Pandas
+      </article>
+    </section>
+
+    <section>
+      <h2>Achievements &amp; Co-Curricular</h2>
+      <div class="grid">
+        <ul>
+          <li>
+            <strong>BdApps National Hackathon 2022 • 1st place</strong> in
+            Regional Round 3: Sylhet, out of 100+ teams.<em> • Aug'22</em>
+          </li>
+          <li>
+            <strong
+              >Mobile App Game &amp; Job Festival 2023 • 1st Runner Up</strong
+            >
+            in Idea Competition<em> • Mar'23</em>
+          </li>
+          <li>
+            <strong>SJ Innovation Hackathon • Innovative Idea Prize</strong> in
+            Medical Category<em> • Oct'21</em>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <strong>Creative Executive</strong> at SUST ACM Student Chapter
+            <em> • Jul'22 - Jan'23</em>
+          </li>
+          <li>
+            <strong>Assistant Treasurer</strong> at Maavoi Abritti Samsad, SUST
+            <em> • Jan'20 - Jul'20</em>
+          </li>
+          <li>
+            <strong>Assistant Office Secretary</strong> at Manikganj Shamprity,
+            SUST<em> • Jan'22 - Aug'22</em>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
