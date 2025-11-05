@@ -8,26 +8,32 @@ Address: Dhaka, Bangladesh
 
 ## Education
 
-**Shahjalal University of Science and Technology**, Sylhet, Bangladesh  
-_Software Engineering_, Jan'19 - Jan'24  
-Institute of Information and Communication Technology (IICT)  
-**CGPA**: 3.64
+**Shahjalal University of Science and Technology**, Sylhet, Bangladesh
+_Software Engineering_, Jan'19 - Jan'24
+Institute of Information and Communication Technology (IICT)
+**Bachelor of Science in Software Engineering** • **CGPA: 3.64/4.00** • Ranked 2nd in class (all courses first attempt)
 
 ## Experience
 
-**Intern Software Engineer | ShellBeeHaken Ltd.** | Feb'23 - Aug'23
+**Software Engineer Intern | ShellBeeHaken Ltd.** | Feb'23 - Aug'23
 
-- Worked as an intern in a corporate environment, contributing to live projects.
+Shipped features and fixed critical bugs across multiple production codebases with agile processes.
 
 **Associate Software Engineer | ShellBeeHaken Ltd.** | Aug'23 - Nov'24
 
-- Extended an offer for a permanent position after internship completion.
+Promoted to full-time after delivering production applications across diverse business domains.
 
 **Software Engineer I | Pathao Ltd.** | Dec'24 - Present
 
-- Full-Stack Engineer at the Data Engineering department. Member of Super AI team.
+Full-stack engineer delivering scalable platforms across mapping, campaign management, and real-time systems serving 100K+ daily users while contributing to Super AI team's LLM integration efforts.
 
 ## Works
+
+### Dashboard Foundation
+
+Engineered enterprise NextJs framework with OpenAPI-driven type generation and Zod validation, powering rapid cross-sector development with shadcn UI, centralized auth/RBAC, and embedded AI guardrails.
+
+- NextJs, OpenAPI, Zod, shadcn UI
 
 ### [Mapage](https://mapage.net/stylist/landing-page)
 
@@ -61,7 +67,21 @@ Developed the community contribution platform, handled access control, and worke
 
 ### Loop
 
-A campaing management system for every platform of Pathao
+A campaign management system for every platform of Pathao with cloud image pipeline and real-time analytics.
+
+- NextJs, Cloud Storage
+
+### Mission
+
+Developed gamification platform with event-based listeners rewarding users for action streaks. Built dashboard for mission entry, phase goal management, and analytics.
+
+- NextJs, Go, PostgreSQL, Redis, BigQuery
+
+### [Resto Web](https://restoweb.p-stageenv.xyz/)
+
+Engineered restaurant SaaS with WebSocket real-time notifications, dynamic menus, and analytics dashboard.
+
+- NextJs, Zod, TypeScript, WebSocket
 
 ### GariKoi
 
@@ -88,6 +108,12 @@ An app using TensorFlow that describes and warns about obstacles.
 
 - Java, TensorFlow, Computer Vision
 
+### [Flash VSCode](https://github.com/Sourav9063/flash-vscode)
+
+Published extension porting flash.nvim navigation to VS Code with 500+ installs, 5-star rating, intelligent search, and multi-cursor support.
+
+- TypeScript, VSCode API
+
 ### [Sync Play](https://github.com/Sourav9063/watchtogether)
 
 A collaborative video-watching platform with shared media controls for both locally stored and cloud-based videos.
@@ -110,9 +136,9 @@ A web and desktop application that aggregates and lists user-specific active FTP
 
 ### [IPA Transcription of Bengali Texts](https://arxiv.org/abs/2403.20084)
 
-The paper advocates for a standardized Bengali IPA, with a new dataset and model, to advance the development of NLP applications.
+(arXiv 2024) — Standardized Bengali IPA phonetic transcription with novel dataset and deep learning model advancing NLP for low-resource languages.
 
-- Pandas, TensorFlow
+- Python, TensorFlow, NLP, Pandas
 
 ## Achievements
 
