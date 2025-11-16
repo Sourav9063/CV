@@ -5,7 +5,7 @@
     "dateOfBirth": "05 March 1993",
     "height": "5'11\"",
     "religion": "Islam",
-    "education": "IBA",
+    "education": "BBA",
     "nationality": "Bangladeshi",
     "maritalStatus": "Never Married",
     "presentAddress": "Dhaka, Bangladesh",
@@ -50,7 +50,7 @@
       "board": "Dhaka Board"
     },
     {
-      "degree": "IBA",
+      "degree": "BBA",
       "institution": "Jahangirnagar University",
       "year": "2016",
       "board": ""
