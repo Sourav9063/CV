@@ -108,7 +108,7 @@ An app using TensorFlow that describes and warns about obstacles.
 
 - Java, TensorFlow, Computer Vision
 
-### [Flash VSCode](https://github.com/Sourav9063/flash-vscode)
+### [Flash VSCode](https://marketplace.visualstudio.com/items?itemName=souravahmed.flash-vscode-latest)
 
 Published extension porting flash.nvim navigation to VS Code with 500+ installs, 5-star rating, intelligent search, and multi-cursor support.
 
