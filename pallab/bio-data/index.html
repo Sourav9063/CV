@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biodata - Sohel Ahammad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary: #002171;
+        --primary-light: #0d47a1;
+        --primary-dark: #001529;
+        --accent: #1565c0;
+        --accent-light: #1976d2;
+        --bg-light: #e3f2fd;
+        --text-dark: #1a1a1a;
+        --text-medium: #424242;
+        --text-light: #757575;
+
+        /* Font Sizes - Simplified Scale */
+        --font-xxl: 2.5rem;
+        --font-xl: 2rem;
+        --font-lg: 1.25rem;
+        --font-md: 1rem;
+        --font-sm: 0.875rem;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Roboto Slab", serif;
+        background: linear-gradient(135deg, #90caf9 0%, #64b5f6 100%);
+        min-height: 100vh;
+        padding: 20px;
+        position: relative;
+        overflow-x: hidden;
+        font-size: 16px;
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        top: -50%;
+        right: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(
+            circle at 30% 40%,
+            rgba(0, 33, 113, 0.15) 0%,
+            transparent 50%
+          ),
+          radial-gradient(
+            circle at 70% 60%,
+            rgba(13, 71, 161, 0.12) 0%,
+            transparent 50%
+          );
+        animation: float 20s ease-in-out infinite;
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translate(0, 0) rotate(0deg);
+        }
+        50% {
+          transform: translate(-5%, -5%) rotate(5deg);
+        }
+      }
+
+      .print-button {
+        all: unset;
+        background: white;
+        position: fixed;
+        top: 24px;
+        right: 24px;
+        cursor: pointer;
+        z-index: 1000;
+        padding: 14px;
+        border-radius: 50%;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .print-button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 30px rgba(46, 125, 50, 0.25);
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--primary-light) 100%
+        );
+      }
+
+      .print-button:hover svg {
+        fill: white;
+      }
+
+      .print-button svg {
+        width: 24px;
+        height: 24px;
+        fill: var(--primary);
+        transition: fill 0.3s ease;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 24px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08),
+          0 2px 8px rgba(0, 0, 0, 0.04);
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+      }
+
+      .header {
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--primary-light) 100%
+        );
+        padding: 24px 0;
+        margin: 0;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .header-bg-pattern {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.1;
+      }
+
+      .header-content {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+      }
+
+      .header h1 {
+        color: white;
+        font-size: var(--font-xxl);
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+        margin-bottom: 8px;
+        animation: fadeInDown 0.6s ease;
+      }
+
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .header-subtitle {
+        color: rgba(255, 255, 255, 0.95);
+        font-size: var(--font-md);
+        font-weight: 400;
+        letter-spacing: 1px;
+        animation: fadeInUp 0.8s ease;
+      }
+
+      .decorative-line {
+        width: 100px;
+        height: 4px;
+        background: linear-gradient(90deg, transparent, white, transparent);
+        margin: 20px auto 0;
+        border-radius: 2px;
+      }
+
+      .content {
+        display: grid;
+        grid-template-columns: 340px 1fr;
+        gap: 0;
+        min-height: calc(100vh - 100px);
+      }
+
+      .sidebar {
+        background: linear-gradient(180deg, #bbdefb 0%, #90caf9 100%);
+        padding: 20px 18px;
+        padding-bottom: 40px;
+        border-right: 1px solid rgba(0, 33, 113, 0.2);
+        position: relative;
+      }
+
+      .sidebar::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 1px;
+        height: 100%;
+        background: linear-gradient(
+          180deg,
+          transparent,
+          rgba(0, 33, 113, 0.4),
+          transparent
+        );
+      }
+
+      .photo-container {
+        width: 160px;
+        height: 200px;
+        margin: 0 auto 20px;
+        border-radius: 14px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12), 0 0 0 3px white,
+          0 0 0 4px rgba(0, 33, 113, 0.4);
+        transition: transform 0.3s ease;
+      }
+
+      .photo-container:hover {
+        transform: translateY(-5px);
+      }
+
+      .photo-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .section-title {
+        color: var(--primary-dark);
+        font-size: var(--font-md);
+        font-weight: 700;
+        margin-bottom: 14px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid var(--accent);
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .section-icon {
+        width: 22px;
+        height: 22px;
+        fill: var(--primary);
+      }
+
+      .detail-item {
+        display: flex;
+        gap: 1rem;
+        padding: 6px 0;
+        font-size: var(--font-sm);
+        color: var(--text-medium);
+        line-height: 1.4;
+        transition: padding-left 0.2s ease;
+      }
+
+      .detail-item:hover {
+        padding-left: 5px;
+      }
+
+      .detail-label {
+        min-width: 110px;
+        font-weight: 600;
+        color: var(--text-dark);
+      }
+
+      .detail-value {
+        flex: 1;
+        color: var(--text-medium);
+      }
+
+      .contact-section {
+        margin-top: 20px;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        padding: 7px 0;
+        color: var(--text-medium);
+        font-size: var(--font-sm);
+        transition: transform 0.2s ease;
+      }
+
+      .contact-item:hover {
+        transform: translateX(5px);
+      }
+
+      .contact-item svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 12px;
+        fill: var(--primary);
+        flex-shrink: 0;
+      }
+
+      .contact-name {
+        font-weight: 700;
+        font-size: var(--font-md);
+        color: var(--primary-dark);
+        margin-bottom: 8px;
+      }
+
+      .main-content {
+        padding: 20px 22px;
+        background: white;
+      }
+
+      .content-card {
+        margin-bottom: 20px;
+        position: relative;
+        animation: fadeInUp 0.6s ease;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .content-card h2 {
+        color: var(--primary-dark);
+        font-size: var(--font-lg);
+        margin-bottom: 14px;
+        padding-bottom: 8px;
+        border-bottom: 2.5px solid var(--accent);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 700;
+        position: relative;
+      }
+
+      .content-card h2::before {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 60px;
+        height: 3px;
+        background: var(--primary);
+        border-radius: 2px;
+      }
+
+      .content-card h2 svg {
+        width: 26px;
+        height: 26px;
+        fill: var(--primary);
+      }
+
+      .content-card p {
+        color: var(--text-medium);
+        line-height: 1.6;
+        text-align: justify;
+        font-size: var(--font-md);
+      }
+
+      .family-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+      }
+
+      .family-item {
+        font-size: var(--font-sm);
+        line-height: 1.4;
+        padding: 8px 10px;
+        background: linear-gradient(
+          135deg,
+          rgba(0, 33, 113, 0.06) 0%,
+          rgba(13, 71, 161, 0.05) 100%
+        );
+        border-radius: 8px;
+        border-left: 3px solid var(--accent);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .family-item::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: linear-gradient(90deg, rgba(0, 33, 113, 0.12), transparent);
+        transition: width 0.3s ease;
+      }
+
+      .family-item:hover::before {
+        width: 100%;
+      }
+
+      .family-item:hover {
+        background: linear-gradient(
+          135deg,
+          rgba(0, 33, 113, 0.1) 0%,
+          rgba(13, 71, 161, 0.08) 100%
+        );
+        transform: translateX(4px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      }
+
+      .family-label {
+        font-weight: 700;
+        font-size: 1em;
+        color: var(--primary-dark);
+        display: block;
+        margin-bottom: 5px;
+        position: relative;
+      }
+
+      .family-details {
+        color: var(--text-medium);
+        display: block;
+        line-height: 1.5;
+      }
+
+      .family-details strong {
+        font-weight: 600;
+        color: var(--text-dark);
+      }
+
+      .expectations-box {
+        background: linear-gradient(
+          135deg,
+          rgba(0, 33, 113, 0.1) 0%,
+          rgba(13, 71, 161, 0.08) 100%
+        );
+        padding: 12px;
+        border-radius: 10px;
+        border: 2px solid rgba(0, 33, 113, 0.25);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .expectations-box::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        right: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(
+          circle,
+          rgba(255, 255, 255, 0.3) 0%,
+          transparent 70%
+        );
+        animation: shimmer 3s ease-in-out infinite;
+      }
+
+      @keyframes shimmer {
+        0%,
+        100% {
+          transform: translate(-50%, -50%);
+        }
+        50% {
+          transform: translate(-30%, -30%);
+        }
+      }
+
+      .expectations-box p {
+        position: relative;
+        z-index: 1;
+        font-size: var(--font-sm);
+      }
+
+      @media print {
+        body {
+          padding: 0;
+          background: white;
+          overflow: hidden;
+        }
+
+        body::before {
+          display: none;
+        }
+
+        .print-button {
+          display: none;
+        }
+
+        .container {
+          box-shadow: none;
+          border-radius: 0;
+          max-width: 100%;
+          overflow: hidden;
+          max-height: 297mm;
+        }
+
+        .header {
+          padding: 18px 0;
+        }
+
+        .header h1 {
+          font-size: var(--font-xl);
+          margin-bottom: 6px;
+        }
+
+        .header-subtitle {
+          font-size: var(--font-sm);
+        }
+
+        .content {
+          grid-template-columns: 260px 1fr;
+          min-height: calc(297mm - 80px);
+          max-height: calc(297mm - 80px);
+          overflow: hidden;
+        }
+
+        .sidebar {
+          padding: 16px 14px;
+          padding-bottom: 50px;
+        }
+
+        .main-content {
+          padding: 16px 18px;
+          padding-bottom: 30px;
+        }
+
+        .photo-container {
+          width: 150px;
+          height: 185px;
+          margin-bottom: 14px;
+        }
+
+        .content-card {
+          margin-bottom: 12px;
+        }
+
+        .family-item {
+          padding: 6px 8px;
+          font-size: var(--font-sm);
+        }
+
+        .expectations-box {
+          padding: 10px;
+        }
+
+        .content-card h2 {
+          font-size: var(--font-md);
+          margin-bottom: 8px;
+        }
+
+        .section-title {
+          font-size: var(--font-sm);
+          margin-bottom: 8px;
+        }
+
+        .family-item:hover {
+          transform: none;
+        }
+
+        @page {
+          size: A4;
+          margin: 0;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .content {
+          grid-template-columns: 1fr;
+        }
+
+        .sidebar {
+          border-right: none;
+          border-bottom: 1px solid rgba(0, 33, 113, 0.2);
+        }
+
+        .family-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- SVG Definitions for Icons and Patterns -->
+    <svg style="display: none">
+      <defs>
+        <!-- Decorative Pattern for Header -->
+        <pattern
+          id="headerPattern"
+          x="0"
+          y="0"
+          width="100"
+          height="100"
+          patternUnits="userSpaceOnUse"
+        >
+          <circle cx="25" cy="25" r="2" fill="white" opacity="0.3" />
+          <circle cx="75" cy="75" r="2" fill="white" opacity="0.3" />
+          <circle cx="75" cy="25" r="1.5" fill="white" opacity="0.2" />
+          <circle cx="25" cy="75" r="1.5" fill="white" opacity="0.2" />
+          <circle cx="50" cy="50" r="1" fill="white" opacity="0.15" />
+        </pattern>
+      </defs>
+    </svg>
+
+    <button class="print-button" title="Print Biodata" onclick="window.print()">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+          d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"
+        />
+      </svg>
+    </button>
+
+    <div class="container">
+      <div class="header">
+        <svg class="header-bg-pattern" width="100%" height="100%">
+          <rect width="100%" height="100%" fill="url(#headerPattern)" />
+        </svg>
+        <div class="header-content">
+          <h1 id="name">Loading...</h1>
+          <div class="header-subtitle">
+            Creative Strategist | IBA Graduate | Seeking Life Partner
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="sidebar">
+          <div class="photo-container">
+            <img id="photo" src="" alt="Profile Photo" />
+          </div>
+
+          <div class="section-title">
+            <svg
+              class="section-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+              />
+            </svg>
+            Personal Details
+          </div>
+          <div id="personal-details"></div>
+
+          <div class="contact-section">
+            <div class="section-title">
+              <svg
+                class="section-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                />
+              </svg>
+              Contact
+            </div>
+            <div id="contact-details"></div>
+          </div>
+        </div>
+
+        <div class="main-content">
+          <div class="content-card">
+            <h2>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+                />
+              </svg>
+              Family Details
+            </h2>
+            <div class="family-grid" id="family-details"></div>
+          </div>
+
+          <div class="content-card">
+            <h2>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"
+                />
+              </svg>
+              Education
+            </h2>
+            <div class="family-grid" id="education-details"></div>
+          </div>
+
+          <div class="content-card">
+            <h2>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"
+                />
+              </svg>
+              Occupation
+            </h2>
+            <div class="family-grid" id="work-details"></div>
+          </div>
+
+          <div class="content-card">
+            <h2>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                />
+              </svg>
+              Expectations from Bride
+            </h2>
+            <div class="expectations-box">
+              <p id="expectations"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      fetch("data.json")
+        .then((response) => response.json())
+        .then((data) => {
+          document.getElementById("name").textContent = data.name;
+          document.getElementById("photo").src = data.photo;
+
+          // Personal Details
+          const personalDetails = document.getElementById("personal-details");
+          const personalMapping = {
+            "Date of Birth": "dateOfBirth",
+            Height: "height",
+            Religion: "religion",
+            Appearance: "appearance",
+            Education: "education",
+            Nationality: "nationality",
+            "Marital Status": "maritalStatus",
+            "Eye color": "eyeColor",
+            "Raised in": "raisedIn",
+            "Present Address": "presentAddress",
+            Address: "permanentAddress",
+          };
+
+          for (const [label, key] of Object.entries(personalMapping)) {
+            if (data.personalDetails[key]) {
+              const detailItem = document.createElement("div");
+              detailItem.className = "detail-item";
+              detailItem.innerHTML = `
+                            <span class="detail-label">${label}:</span>
+                            <span class="detail-value">${data.personalDetails[key]}</span>
+                        `;
+              personalDetails.appendChild(detailItem);
+            }
+          }
+
+          // Contact Details
+          const contactDetails = document.getElementById("contact-details");
+          contactDetails.innerHTML = `
+                    <div class="contact-name">${data.contact.name}</div>
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+                        </svg>
+                        ${data.contact.phone}
+                    </div>
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        ${data.contact.email}
+                    </div>
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                        ${data.contact.address}
+                    </div>
+                `;
+
+          // Family Details
+          const familyDetails = document.getElementById("family-details");
+          const familyData = [];
+
+          // Add family members only if they exist
+          if (data.familyDetails.father) {
+            familyData.push({
+              label: "Father",
+              content: `${data.familyDetails.father.name}<br><strong>Mobile:</strong> ${data.familyDetails.father.mobile}`,
+            });
+          }
+
+          if (data.familyDetails.mother) {
+            familyData.push({
+              label: "Mother",
+              content: `${data.familyDetails.mother.name}<br>${data.familyDetails.mother.note}`,
+            });
+          }
+
+          if (data.familyDetails.brother) {
+            familyData.push({
+              label: "Brother",
+              content: `${data.familyDetails.brother.name}<br>${data.familyDetails.brother.location}<br><strong>Mobile:</strong> ${data.familyDetails.brother.mobile}`,
+            });
+          }
+
+          if (data.familyDetails.sister) {
+            familyData.push({
+              label: "Sister",
+              content: `${data.familyDetails.sister.name}<br>${data.familyDetails.sister.location}`,
+            });
+          }
+
+          if (data.familyDetails.sisterInLaw) {
+            familyData.push({
+              label: "Sister-in-law",
+              content: `${data.familyDetails.sisterInLaw.name}<br>${data.familyDetails.sisterInLaw.profession}<br>${data.familyDetails.sisterInLaw.location}`,
+            });
+          }
+
+          if (data.familyDetails.brotherInLaw) {
+            familyData.push({
+              label: "Brother-in-law",
+              content: `${data.familyDetails.brotherInLaw.name}<br>${data.familyDetails.brotherInLaw.profession}`,
+            });
+          }
+
+          if (data.familyDetails.nephew) {
+            familyData.push({
+              label: "Nephew",
+              content: data.familyDetails.nephew,
+            });
+          }
+
+          if (data.familyDetails.grandfather) {
+            familyData.push({
+              label: "Grandfather",
+              content: data.familyDetails.grandfather,
+            });
+          }
+
+          familyData.forEach((item) => {
+            const familyItem = document.createElement("div");
+            familyItem.className = "family-item";
+            familyItem.innerHTML = `
+                        <span class="family-label">${item.label}</span>
+                        <span class="family-details">${item.content}</span>
+                    `;
+            familyDetails.appendChild(familyItem);
+          });
+
+          // Education
+          const educationDetails = document.getElementById("education-details");
+          data.education.forEach((edu) => {
+            const eduItem = document.createElement("div");
+            eduItem.className = "family-item";
+            eduItem.innerHTML = `
+                        <span class="family-label">${edu.degree}</span>
+                        <span class="family-details">${
+                          edu.institution
+                        }<br><strong>Year:</strong> ${edu.year}${
+              edu.board ? "<br><strong>Board:</strong> " + edu.board : ""
+            }</span>
+                    `;
+            educationDetails.appendChild(eduItem);
+          });
+
+          // Occupation
+          const workDetails = document.getElementById("work-details");
+          data.workExperience.forEach((work) => {
+            const workItem = document.createElement("div");
+            workItem.className = "family-item";
+            workItem.innerHTML = `
+                        <span class="family-label">${work.position}</span>
+                        <span class="family-details">${work.company}<br>${work.location}<br><strong>Year:</strong> ${work.year}</span>
+                    `;
+            workDetails.appendChild(workItem);
+          });
+
+          // Expectations
+          document.getElementById("expectations").textContent =
+            data.expectations;
+        })
+        .catch((error) => {
+          console.error("Error loading data:", error);
+          document.getElementById("name").textContent = "Error Loading Data";
+        });
+    </script>
+  </body>
+</html>

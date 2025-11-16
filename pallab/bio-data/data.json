@@ -1,0 +1,74 @@
+{
+  "name": "Pallab Ahmed",
+  "photo": "photo.jpeg",
+  "personalDetails": {
+    "dateOfBirth": "05 March 1993",
+    "height": "5'11\"",
+    "religion": "Islam",
+    "education": "IBA",
+    "nationality": "Bangladeshi",
+    "maritalStatus": "Never Married",
+    "presentAddress": "Dhaka, Bangladesh",
+    "permanentAddress": "Manikganj, Bangladesh"
+  },
+  "contact": {
+    "name": "Pallab",
+    "phone": "01710465946",
+    "email": "pallab.ahmed072@gmail.com",
+    "address": "Mohakhali, Dhaka"
+  },
+  "familyDetails": {
+    "father": {
+      "name": "Moslem Uddin Ahmed",
+      "mobile": "01711422012"
+    },
+    "mother": {
+      "name": "Mashuara Ahmed",
+      "note": "Parents settled in Manikganj, Bangladesh."
+    },
+    "brother": {
+      "name": "Sourav Ahmed",
+      "location": "Married, Dhaka, Bangladesh.",
+      "mobile": "01760725654"
+    },
+    "sister": {
+      "name": "Eva Ahmed",
+      "location": "Married, Dhaka, Bangladesh"
+    }
+  },
+  "education": [
+    {
+      "degree": "SSC",
+      "institution": "Manikganj Govt. High School",
+      "year": "2008",
+      "board": "Dhaka Board"
+    },
+    {
+      "degree": "HSC",
+      "institution": "Dhaka Residential Model College",
+      "year": "2010",
+      "board": "Dhaka Board"
+    },
+    {
+      "degree": "IBA",
+      "institution": "Jahangirnagar University",
+      "year": "2016",
+      "board": ""
+    }
+  ],
+  "workExperience": [
+    {
+      "company": "Interspeed Marketing Solutions",
+      "position": "Creative Strategist",
+      "year": "Current",
+      "location": "Mohakhali, Dhaka"
+    },
+    {
+      "company": "Potato Digital",
+      "position": "Senior Copywriter",
+      "year": "2022",
+      "location": "Mohakhali, Dhaka"
+    }
+  ],
+  "expectations": "Seeking an open-minded, ambitious life partner who loves travel, books, cinema, and exploring new cuisines. From a respectable Muslim family, well-educated, kind-hearted, and values both independence and togetherness. Ready to build a beautiful life filled with love, laughter, and mutual respect. Never married, under 28."
+}
