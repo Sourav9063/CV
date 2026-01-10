@@ -1,31 +1,33 @@
 # Sourav Ahmed
 
-**Detail-oriented, fast learner, tech enthusiast**  
+**Full-Stack Software Engineer • AI/ML Enthusiast • Open Source Contributor**  
 [LinkedIn](https://www.linkedin.com/in/sourav-ahmed/) | [Portfolio](https://sourav9063.github.io/) | [GitHub](https://github.com/Sourav9063)  
 [Email](mailto:sourav.ahmed5654@gmail.com): sourav.ahmed5654@gmail.com  
 Phone: +8801760725654  
 Address: Dhaka, Bangladesh
 
+Full-Stack Software Engineer with 3+ years building scalable applications and distributed systems at high-growth startups. Expert in JavaScript/TypeScript, real-time systems, and cloud infrastructure with proven 0-to-1 product launches. Currently integrating frontier LLMs models into AI-assisted workflows for production, optimizing developer velocity by 40%.
+
 ## Education
 
-**Shahjalal University of Science and Technology**, Sylhet, Bangladesh
-_Software Engineering_, Jan'19 - Jan'24
-Institute of Information and Communication Technology (IICT)
+**Shahjalal University of Science and Technology**, Sylhet, Bangladesh  
+_Software Engineering_, Jan'19 - Jan'24  
+Institute of Information and Communication Technology (IICT)  
 **Bachelor of Science in Software Engineering** • **CGPA: 3.64/4.00** • Ranked 2nd in class (all courses first attempt)
 
 ## Experience
 
-**Software Engineer Intern | ShellBeeHaken Ltd.** | Feb'23 - Aug'23
+**Software Engineer I | Pathao Ltd.** | Dec'24 - Present
 
-Shipped features and fixed critical bugs across multiple production codebases with agile processes.
+Full-stack engineer delivering scalable platforms across mapping, campaign management, and real-time systems serving 100K+ daily users while contributing to Super AI team's LLM integration efforts.
 
 **Associate Software Engineer | ShellBeeHaken Ltd.** | Aug'23 - Nov'24
 
 Promoted to full-time after delivering production applications across diverse business domains.
 
-**Software Engineer I | Pathao Ltd.** | Dec'24 - Present
+**Software Engineer Intern | ShellBeeHaken Ltd.** | Feb'23 - Aug'23
 
-Full-stack engineer delivering scalable platforms across mapping, campaign management, and real-time systems serving 100K+ daily users while contributing to Super AI team's LLM integration efforts.
+Shipped features and fixed critical bugs across multiple production codebases with agile processes.
 
 ## Works
 
@@ -35,41 +37,17 @@ Engineered enterprise NextJs framework with OpenAPI-driven type generation and Z
 
 - NextJs, OpenAPI, Zod, shadcn UI
 
-### [Mapage](https://mapage.net/stylist/landing-page)
-
-A reservation and payment management system. Worked on real-time communication and design implementation.
-
-- NextJs, MongoDB
-
-### [UUORK](https://shellbeehaken.com/portfolio/8)
-
-A virtual company management platform. Worked on responsiveness, authentication, real-time communication, and bug fixing.
-
-- NextJs, ElectronJs
-
-### [Honnemir](https://shellbeehaken.com/portfolio/6)
-
-A voting website with image, video, and audio support. Implemented designs and handled the voting, uploading, viewing, and admin flow.
-
-- NextJs, GraphQL, AWS Amplify
-
-### [KriyaKarak](https://kriyakarak.com/)
-
-A platform for creatives for reservations and payment management. Worked on payment disbursement system, admin panel, and app backend development.
-
-- NextJs, MongoDB
-
 ### [Pathao Map](https://maps.pathao.io/)
 
-Developed the community contribution platform, handled access control, and worked in a distributed system.
+Architected microservices-based community platform (Alexander) with RBAC for gathering and validating POIs serving 100K+ daily users.
 
 - GoLang, VueJs, NuxtJs, Docker
 
 ### Loop
 
-A campaign management system for every platform of Pathao with cloud image pipeline and real-time analytics.
+Built campaign management platform handling marketing operations across all services with bulk **XLSX uploads**, robust file handling, and real-time analytics.
 
-- NextJs, Cloud Storage
+- NextJs, Go, PostgreSQL
 
 ### Mission
 
@@ -83,54 +61,73 @@ Engineered restaurant SaaS with WebSocket real-time notifications, dynamic menus
 
 - NextJs, Zod, TypeScript, WebSocket
 
+### [Year End Wrap](https://wrapped.pathao.com/eyJvcmQiOlsyNjMsMTAsMCwyMiwwLDFdLCJ1c2ciOlsxMTk0NjQsMjc5MzMuNjIsInAiXSwiY2lkIjoxLCJ1dCI6ImEiLCJtZSI6WyJyIiwiciIsMTkwMV0sInAiOiJiL3ZldGVyYW4ifQ==)
+
+Engineered interactive 2025 wrap experience integrated without app updates. Optimized assets and solved critical cross-platform (iOS/Android) compatibility issues.
+
+- NextJs, TypeScript
+
 ### GariKoi
 
-This project visualizes Driver location, Allocation/Deallocation.
+Developed real-time geo tracking system visualizing driver locations, allocation/deallocation for operations.
+
+- NextJs, Go, Google Maps API
+
+### [Mapage](https://mapage.net/stylist/landing-page)
+
+Built real-time communication system for reservation/payment platform with optimistic updates and conflict resolution.
+
+- Socket.IO, NextJs, MongoDB
+
+### [UUORK](https://shellbeehaken.com/portfolio/8)
+
+Engineered cross-platform workspace app (ElectronJs + NextJs) with JWT authentication, real-time collaboration, and responsive design.
+
+- NextJs, ElectronJs
+
+### [Honnemir](https://shellbeehaken.com/portfolio/6)
+
+Developed multimedia voting platform with GraphQL API, AWS Amplify, and S3 upload pipeline.
+
+- NextJs, GraphQL, AWS Amplify
+
+### [KriyaKarak](https://kriyakarak.com/)
+
+Implemented payment disbursement system with automated payouts and reconciliation dashboard for creative marketplace.
+
+- NextJs, MongoDB
 
 ## Projects
 
-### [uBookSharing](https://github.com/Sourav9063/uBookSharing)
-
-A university-based book-sharing app with renting, buying, etc. options.
-
-- Flutter, Firebase, Rive
-
-### [Hall Management](https://sourav9063.github.io/hall_management_rf/)
-
-A website for managing form submissions, validation, issue submissions, notices, payments, illegal student finding, etc.
-
-- ReactJs, ExpressJs, MySQL
-- [Frontend Code](https://github.com/Sourav9063/hall_management_rf) | [Backend Code](https://github.com/Sourav9063/Backend_hall_management) | [SRS](https://docs.google.com/document/d/1Sy9VO97rWJrOYCMgWRGJz4H2q3vJPSVCpLRm5AUOsO8/edit?usp=sharing)
-
-### [Obstacle Detection](https://github.com/Sourav9063/obstacles_detection)
-
-An app using TensorFlow that describes and warns about obstacles.
-
-- Java, TensorFlow, Computer Vision
-
 ### [Flash VSCode](https://marketplace.visualstudio.com/items?itemName=souravahmed.flash-vscode-latest)
 
-Published extension porting flash.nvim navigation to VS Code with 500+ installs, 5-star rating, intelligent search, and multi-cursor support.
+Published extension porting flash.nvim navigation to VS Code with **1500+ installs**, 5-star rating, intelligent search, and multi-cursor support. Available on [Open VSX](https://open-vsx.org/extension/souravahmed/flash-vscode-latest).
 
 - TypeScript, VSCode API
 
 ### [Sync Play](https://github.com/Sourav9063/watchtogether)
 
-A collaborative video-watching platform with shared media controls for both locally stored and cloud-based videos.
+Collaborative video platform with synchronized playback, chat, and local/cloud media support using WebSocket real-time.
 
 - NextJs, Socket.IO, Firebase
 
-### [Free Stream](https://syncplay.vercel.app/free-stream)
+### [Obstacle Detection](https://github.com/Sourav9063/obstacles_detection)
 
-A website to watch movies and series.
+Accessibility app using TensorFlow Lite for real-time object detection with audio warnings for visually impaired.
 
-- NextJs
+- Java, TensorFlow Lite, Computer Vision
 
 ### [FTP Searcher](https://searchftp.vercel.app/)
 
-A web and desktop application that aggregates and lists user-specific active FTP links from Bangladesh for easy access.
+Cross-platform FTP aggregator with search indexing and content discovery for local network sharing.
 
 - NextJs, ElectronJs
+
+### [Hall Management](https://sourav9063.github.io/hall_management_rf/)
+
+Full-stack dormitory system with form validation, issue tracking, notice board, and payment processing.
+
+- ReactJs, ExpressJs, MySQL
 
 ## Publications
 
@@ -139,6 +136,11 @@ A web and desktop application that aggregates and lists user-specific active FTP
 (arXiv 2024) — Standardized Bengali IPA phonetic transcription with novel dataset and deep learning model advancing NLP for low-resource languages.
 
 - Python, TensorFlow, NLP, Pandas
+
+## Datasets
+
+- **DUALIPA:** A comprehensive Bengali IPA dataset featuring 156k+ validated sentences with phonetic transcriptions generated via deep learning models and expert verification. [[Literature]](https://docs.google.com/spreadsheets/d/1aIH_Ltkud8eM5PogEMfHRi4C0GpIXs1DrNHP47hp56w/edit?gid=959838764#gid=959838764) [[Newspaper]](https://docs.google.com/spreadsheets/d/1uTT5R7hmeIxROExmHJ2H0EeooCrOgoCTE7XYduebqt4/edit?gid=1718347288#gid=1718347288)
+- **Regional IPA:** Covering phonetic variations across 7 major regions (Rangpur, Kishoreganj, Chittagong, Narsingdi, Narail, Habiganj, Tangail) with sentence and word-level transcriptions for dialectal analysis. [[Dataset]](https://github.com/Sourav9063/IPA/tree/main/IPA_region)
 
 ## Achievements
 
