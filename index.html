@@ -196,7 +196,7 @@
     </style>
   </head>
   <body>
-    <button class="print-button" title="Print Resume" onclick="window.print()">
+    <button class="print-button" title="Print Resume" onclick="handlePrint()">
       <svg
         width="24"
         height="24"
@@ -210,6 +210,24 @@
         />
       </svg>
     </button>
+
+    <script>
+      function handlePrint() {
+        if (
+          window.innerWidth <= 768 ||
+          /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+            navigator.userAgent,
+          )
+        ) {
+          const link = document.createElement("a");
+          link.href = "index.pdf";
+          link.download = "Sourav_Ahmed_Resume.pdf";
+          link.click();
+        } else {
+          window.print();
+        }
+      }
+    </script>
 
     <h1>Sourav Ahmed</h1>
     <header>
