@@ -17,7 +17,7 @@ Institute of Information and Communication Technology (IICT)
 
 ## Experience
 
-**Software Engineer I | Pathao Ltd.** | Dec'24 - Present
+**Software Engineer II (Promoted) | Pathao Ltd.** | Dec'24 - Present
 
 Full-stack engineer delivering scalable platforms across mapping, campaign management, and real-time systems serving 100K+ daily users while contributing to Super AI team's LLM integration efforts.
 
@@ -72,6 +72,12 @@ Engineered interactive 2025 wrap experience integrated without app updates. Opti
 Developed real-time geo tracking system visualizing driver locations, allocation/deallocation for operations.
 
 - NextJs, Go, Google Maps API
+
+### Mapsense
+
+Built Chrome Extension and web tool to flag route anomalies, comparing actual vs suggested routes to detect map mismatches against prominent providers for ops to fix Pathao map.
+
+- NextJs, TypeScript, PostgreSQL
 
 ### [Mapage](https://mapage.net/stylist/landing-page)
 
