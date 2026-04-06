@@ -1,0 +1,22 @@
+Subject: Application for Frontend Developer (Vue.js)
+
+Dear Hiring Manager,
+
+I am excited to apply for the Frontend Developer (Vue.js) role at your Centre of Excellence in Dhaka. With 3+ years of professional experience building scalable web applications at Pathao Ltd. and ShellBeeHaken Ltd., I am confident I can contribute meaningfully to your fintech products serving Tier-1 and Tier-2 banks.
+
+At Pathao, I architected and delivered multiple production platforms using Vue.js and Nuxt.js — including Pathao Map (Alexander), a community mapping platform serving 100K+ daily users, and Loop, a campaign management platform handling bulk operations across all business verticals. I also built a NextJs scaffold with OpenAPI-driven type generation, centralized RBAC, and AI guardrails that accelerated cross-team development significantly.
+
+My frontend skill set aligns closely with your requirements: I am proficient in Vue.js, TypeScript, and modern CSS (HTML5/CSS3), and have hands-on experience with state management patterns. I am comfortable working across the full stack — I have shipped REST API-integrated SPAs, real-time WebSocket systems, and event-driven architectures using Go, Node.js, and PostgreSQL. While my primary industry experience is in JavaScript/TypeScript and Go, I worked extensively with Java during my university years and am confident I can ramp up quickly on Java/Spring Boot where needed.
+
+I actively embrace AI-assisted development — I use tools like Claude Code daily to improve code quality and developer velocity, which aligns well with your team's expectations.
+
+I am drawn to this opportunity because it combines high-impact fintech engineering with a global cross-functional team — exactly the environment where I thrive. I would love to bring my experience with scalable UI systems, component architecture, and real-time data to your team.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute.
+
+Best regards,
+Sourav Ahmed
+sourav.ahmed5654@gmail.com | +8801760725654
+LinkedIn: linkedin.com/in/sourav-ahmed/
+GitHub: github.com/Sourav9063
+Portfolio: sourav9063.github.io
