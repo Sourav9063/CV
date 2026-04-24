@@ -105,6 +105,12 @@ Implemented payment disbursement system with automated payouts and reconciliatio
 
 ## Projects
 
+### [JS Pad](https://sourav9063.github.io/jspad)
+
+First Vim-enabled JavaScript & TypeScript playground on the web. Powered by the VS Code editor engine, runs entirely in the browser with live output, TypeScript support, console capture, and auto-save.
+
+- TypeScript, Monaco Editor
+
 ### [Flash VSCode](https://marketplace.visualstudio.com/items?itemName=souravahmed.flash-vscode-latest)
 
 Published extension porting flash.nvim navigation to VS Code with **1500+ installs**, 5-star rating, intelligent search, and multi-cursor support. Available on [Open VSX](https://open-vsx.org/extension/souravahmed/flash-vscode-latest).
