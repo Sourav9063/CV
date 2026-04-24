@@ -54,6 +54,24 @@
         margin: 0 auto;
       }
 
+      .resume-header {
+        display: grid;
+        grid-template-columns: 68pt 1fr 68pt;
+        align-items: center;
+        margin-bottom: var(--spacing-lg);
+      }
+
+      .resume-header > div {
+        grid-column: 2;
+      }
+
+      .resume-header img {
+        grid-column: 3;
+        justify-self: end;
+        width: 65pt;
+        height: 65pt;
+      }
+
       h1 {
         font-size: 22pt;
         font-weight: 600;
@@ -89,7 +107,6 @@
         text-align: center;
         font-size: 9pt;
         color: var(--color-text);
-        margin-bottom: var(--spacing-lg);
       }
 
       section > p {
@@ -252,31 +269,36 @@
       }
     </script>
 
-    <h1>Sourav Ahmed</h1>
-    <header>
-      <a
-        href="https://www.linkedin.com/in/sourav-ahmed/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >LinkedIn</a
-      >
-      •
-      <a
-        href="https://sourav9063.github.io/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Portfolio</a
-      >
-      •
-      <a
-        href="https://github.com/Sourav9063"
-        target="_blank"
-        rel="noopener noreferrer"
-        >GitHub</a
-      ><br />
-      <a href="mailto:sourav.ahmed5654@gmail.com">sourav.ahmed5654@gmail.com</a>
-      • +8801760725654 • Dhaka, Bangladesh
-    </header>
+    <div class="resume-header">
+      <div>
+        <h1>Sourav Ahmed</h1>
+        <header>
+          <a
+            href="https://www.linkedin.com/in/sourav-ahmed/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+          •
+          <a
+            href="https://sourav9063.github.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Portfolio</a
+          >
+          •
+          <a
+            href="https://github.com/Sourav9063"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          ><br />
+          <a href="mailto:sourav.ahmed5654@gmail.com">sourav.ahmed5654@gmail.com</a>
+          • +8801760725654 • Dhaka, Bangladesh
+        </header>
+      </div>
+      <img src="../assets/qr-png.png" alt="QR Code" />
+    </div>
 
     <section>
       <h2>Summary</h2>
