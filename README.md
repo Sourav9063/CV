@@ -141,6 +141,18 @@ Full-stack dormitory system with form validation, issue tracking, notice board, 
 
 - ReactJs, ExpressJs, MySQL
 
+### [uBookSharing](https://github.com/Sourav9063/uBookSharing)
+
+University textbook marketplace with rental/purchase, ratings, Firebase real-time sync, custom Rive animations.
+
+- Flutter, Dart, Firebase, Rive
+
+### [JSON Dictionary](https://github.com/Sourav9063/json-dictionary)
+
+Structured English dictionary dataset in JSON format for offline lookup, NLP pipelines, and client-side word tooling.
+
+- JSON, JavaScript
+
 ## Publications
 
 ### [IPA Transcription of Bengali Texts](https://arxiv.org/abs/2403.20084)
